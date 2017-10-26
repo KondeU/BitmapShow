@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?><DEFECTS><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\kondeu\desktop\bitmapshow\bitmapshow\</FILEPATH>
+      <FILENAME>bitmapinfocore.cpp</FILENAME>
+      <LINE>50</LINE>
+      <COLUMN>24</COLUMN>
+    </SFA>
+    <DEFECTCODE>6308</DEFECTCODE>
+    <DESCRIPTION>“realloc”可能返回 null 指针: 将 null 指针赋给“unsigned char * `unsigned char * __cdecl BitmapInfo(struct HWND__ *,wchar_t *,unsigned long &amp;,unsigned long &amp;)'::`2'::pFile”(后者将作为参数传递给“realloc”)将导致原始内存块泄漏。</DESCRIPTION>
+    <FUNCTION>BitmapInfo</FUNCTION>
+    <DECORATED>?BitmapInfo@@YAPAEPAUHWND__@@PA_WAAK2@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\kondeu\desktop\bitmapshow\bitmapshow\</FILEPATH>
+      <FILENAME>bitmapinfocore.cpp</FILENAME>
+      <LINE>79</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6276</DEFECTCODE>
+    <DESCRIPTION>语义不同的字符串类型之间的强制转换: char * 转换为 wchar_t *。使用无效的字符串会导致未定义的行为。</DESCRIPTION>
+    <FUNCTION>BitmapInfo</FUNCTION>
+    <DECORATED>?BitmapInfo@@YAPAEPAUHWND__@@PA_WAAK2@Z</DECORATED>
+    <FUNCLINE>18</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT><DEFECT>
+    <SFA>
+      <FILEPATH>c:\users\kondeu\desktop\bitmapshow\bitmapshow\</FILEPATH>
+      <FILENAME>bitmapshow.cpp</FILENAME>
+      <LINE>40</LINE>
+      <COLUMN>18</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>“WinMain”的批注不一致: 此实例包含 无批注。请参见 c:\program files (x86)\windows kits\8.1\include\um\winbase.h(905)。</DESCRIPTION>
+    <FUNCTION>WinMain</FUNCTION>
+    <DECORATED>WinMain@16</DECORATED>
+    <FUNCLINE>40</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT></DEFECTS>
