@@ -26,8 +26,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 Copyright (c) 2017, KondeU, All rights reserved.
 
 Project:     BitmapShow
-File:        BitmapInfoCore.cpp
-Description: Could only run on Windows. Extract bitmap information and data.
+File:        BitmapShow.cpp
+Description: Could only run on Windows. Windows execute.
 Date:        2017-10-26
 Version:     1.1
 Authors:     Deyou Kong <370242479@qq.com>
